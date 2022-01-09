@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warning</title>
+
+    <style>
+      .centered {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform: -webkit-translate(-50%, -50%);
+        transform: -moz-translate(-50%, -50%);
+        transform: -ms-translate(-50%, -50%);
+      }
+      .error {
+        transition: transform 0.9s ease;
+        color: #f26d21;
+      }
+      .error:hover {
+        transform: scale(2.1);
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1 class="centered">
+      <dir class="error">
+      This website is not allowed by your organization admin.</br><a
+        href="http://quran10.com/data.json"
+        >CLICK HERE
+      </a>
+      for a list of <b>Allowed </b>websites</dir>
+    </h1>
+  </body>
+</html>
